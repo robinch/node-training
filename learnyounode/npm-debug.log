@@ -1,11 +1,11 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'bl' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'srftime' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.36
 4 verbose node symlink /usr/bin/node
 5 warn package.json g@1.0.2 'repositories' (plural) Not supported. Please pick one as the 'repository' field
-6 verbose cache add [ 'bl', null ]
-7 verbose cache add name=undefined spec="bl" args=["bl",null]
+6 verbose cache add [ 'srftime', null ]
+7 verbose cache add name=undefined spec="srftime" args=["srftime",null]
 8 verbose parsed url { protocol: null,
 8 verbose parsed url   slashes: null,
 8 verbose parsed url   auth: null,
@@ -15,95 +15,70 @@
 8 verbose parsed url   hash: null,
 8 verbose parsed url   search: null,
 8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: 'bl',
-8 verbose parsed url   path: 'bl',
-8 verbose parsed url   href: 'bl' }
-9 silly lockFile f55fb781-bl bl
-10 verbose lock bl /home/robin/.npm/f55fb781-bl.lock
-11 silly lockFile f55fb781-bl bl
-12 silly lockFile f55fb781-bl bl
-13 verbose addNamed [ 'bl', '' ]
+8 verbose parsed url   pathname: 'srftime',
+8 verbose parsed url   path: 'srftime',
+8 verbose parsed url   href: 'srftime' }
+9 silly lockFile f5753305-srftime srftime
+10 verbose lock srftime /home/robin/.npm/f5753305-srftime.lock
+11 silly lockFile f5753305-srftime srftime
+12 silly lockFile f5753305-srftime srftime
+13 verbose addNamed [ 'srftime', '' ]
 14 verbose addNamed [ null, '*' ]
-15 silly lockFile f83e65ee-bl bl@
-16 verbose lock bl@ /home/robin/.npm/f83e65ee-bl.lock
-17 silly addNameRange { name: 'bl', range: '*', hasData: false }
-18 verbose request where is /bl
+15 silly lockFile 3664ebfd-srftime srftime@
+16 verbose lock srftime@ /home/robin/.npm/3664ebfd-srftime.lock
+17 silly addNameRange { name: 'srftime', range: '*', hasData: false }
+18 verbose request where is /srftime
 19 verbose request registry https://registry.npmjs.org/
-20 verbose request id c39982cc6408a9a8
-21 verbose url raw /bl
-22 verbose url resolving [ 'https://registry.npmjs.org/', './bl' ]
-23 verbose url resolved https://registry.npmjs.org/bl
-24 verbose request where is https://registry.npmjs.org/bl
-25 info trying registry request attempt 1 at 15:59:49
-26 verbose etag "C1N4WO5UX5RHIJJ21SFYE1V6N"
-27 http GET https://registry.npmjs.org/bl
-28 http 304 https://registry.npmjs.org/bl
-29 silly registry.get cb [ 304,
-29 silly registry.get   { date: 'Thu, 19 Feb 2015 14:59:50 GMT',
-29 silly registry.get     server: 'Apache',
+20 verbose request id 8d954702968ed682
+21 verbose url raw /srftime
+22 verbose url resolving [ 'https://registry.npmjs.org/', './srftime' ]
+23 verbose url resolved https://registry.npmjs.org/srftime
+24 verbose request where is https://registry.npmjs.org/srftime
+25 info trying registry request attempt 1 at 19:00:39
+26 http GET https://registry.npmjs.org/srftime
+27 http 404 https://registry.npmjs.org/srftime
+28 verbose headers { date: 'Sat, 21 Feb 2015 18:00:42 GMT',
+28 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '52',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   'x-served-by': 'cache-fra1233-FRA',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1424541641.540624,VS0,VE723',
+28 verbose headers   'keep-alive': 'timeout=10, max=50',
+28 verbose headers   connection: 'Keep-Alive' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { date: 'Sat, 21 Feb 2015 18:00:42 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'accept-ranges': 'bytes',
 29 silly registry.get     via: '1.1 varnish',
-29 silly registry.get     'last-modified': 'Thu, 19 Feb 2015 14:59:04 GMT',
-29 silly registry.get     'cache-control': 'max-age=60',
-29 silly registry.get     etag: '"C1N4WO5UX5RHIJJ21SFYE1V6N"',
-29 silly registry.get     age: '49',
-29 silly registry.get     'x-served-by': 'cache-ams4129-AMS',
-29 silly registry.get     'x-cache': 'HIT',
-29 silly registry.get     'x-cache-hits': '2',
-29 silly registry.get     'x-timer': 'S1424357990.025304,VS0,VE0',
-29 silly registry.get     vary: 'Accept',
-29 silly registry.get     'content-length': '0',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1424541641.540624,VS0,VE723',
 29 silly registry.get     'keep-alive': 'timeout=10, max=50',
 29 silly registry.get     connection: 'Keep-Alive' } ]
-30 verbose etag https://registry.npmjs.org/bl from cache
-31 silly addNameRange number 2 { name: 'bl', range: '*', hasData: true }
-32 silly addNameRange versions [ 'bl',
-32 silly addNameRange   [ '0.0.0',
-32 silly addNameRange     '0.1.0',
-32 silly addNameRange     '0.1.1',
-32 silly addNameRange     '0.2.0',
-32 silly addNameRange     '0.3.0',
-32 silly addNameRange     '0.4.0',
-32 silly addNameRange     '0.4.1',
-32 silly addNameRange     '0.4.2',
-32 silly addNameRange     '0.5.0',
-32 silly addNameRange     '0.6.0',
-32 silly addNameRange     '0.7.0',
-32 silly addNameRange     '0.8.0',
-32 silly addNameRange     '0.8.1',
-32 silly addNameRange     '0.8.2',
-32 silly addNameRange     '0.9.0',
-32 silly addNameRange     '0.9.1',
-32 silly addNameRange     '0.9.2',
-32 silly addNameRange     '0.9.3',
-32 silly addNameRange     '0.9.4' ] ]
-33 verbose addNamed [ 'bl', '0.9.4' ]
-34 verbose addNamed [ '0.9.4', '0.9.4' ]
-35 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
-36 verbose lock bl@0.9.4 /home/robin/.npm/a57792fd-bl-0-9-4.lock
-37 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
-38 verbose lock https://registry.npmjs.org/bl/-/bl-0.9.4.tgz /home/robin/.npm/cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz.lock
-39 verbose addRemoteTarball [ 'https://registry.npmjs.org/bl/-/bl-0.9.4.tgz',
-39 verbose addRemoteTarball   '4702ddf72fbe0ecd82787c00c113aea1935ad0e7' ]
-40 info retry fetch attempt 1 at 15:59:50
-41 verbose fetch to= /tmp/npm-15761-uVq3XHct/registry.npmjs.org/bl/-/bl-0.9.4.tgz
-42 http GET https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
-43 http 200 https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
-44 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
-45 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
-46 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
-47 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
-48 silly lockFile f83e65ee-bl bl@
-49 silly lockFile f83e65ee-bl bl@
-50 error Error: EACCES, mkdir '/home/robin/.npm/bl/0.9.4'
-50 error  { [Error: EACCES, mkdir '/home/robin/.npm/bl/0.9.4'] errno: 3, code: 'EACCES', path: '/home/robin/.npm/bl/0.9.4' }
-51 error Please try running this command again as root/Administrator.
-52 error System Linux 3.13.0-44-generic
-53 error command "/usr/bin/node" "/usr/bin/npm" "install" "bl"
-54 error cwd /home/robin/dev/node/node-training/learnyounode
-55 error node -v v0.10.36
-56 error npm -v 1.4.28
-57 error path /home/robin/.npm/bl/0.9.4
-58 error code EACCES
-59 error errno 3
-60 error stack Error: EACCES, mkdir '/home/robin/.npm/bl/0.9.4'
-61 verbose exit [ 3, true ]
+30 silly lockFile 3664ebfd-srftime srftime@
+31 silly lockFile 3664ebfd-srftime srftime@
+32 error 404 404 Not Found: srftime
+32 error 404
+32 error 404 'srftime' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 3.13.0-45-generic
+34 error command "/usr/bin/node" "/usr/bin/npm" "install" "srftime"
+35 error cwd /home/robin/dev/node/node-training/learnyounode
+36 error node -v v0.10.36
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]
